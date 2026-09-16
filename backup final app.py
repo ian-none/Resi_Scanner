@@ -21,7 +21,7 @@ from tkcalendar import Calendar
 
 os.environ["PYTHONOPTIMIZE"] = "1"
 
-APP_NAME = "RESI SCANNER PAPAYA"
+APP_NAME = "RESI SCANNER"
 VERSION = "1.0.0"  # Versi aplikasi saat ini
 DB_FOLDER = "databases"
 BACKUP_FOLDER = "backup"
@@ -1186,9 +1186,9 @@ class App:
         create_section("Bahasa pemograman yang digunakan", "python")
         create_section("Jenis Engine yang di gunakan", "Sqllite,customtkinter, tkcalendar, pandas, openpyxl, reportlab")
         create_section("Troubleshooting", "please contact admin")
-        create_section("thanks to", "Tuhan yang maha Esa, GitHub, W3schools, @ar1nben1, fromwire, & Papaya Fresh Gallery Bandung")
+        create_section("Silahkan ditambahkan")
         
-        footer_lbl = ctk.CTkLabel(main_frame, text="@2026\nseftian_permana. | hotline: (0857-5926-7590)", font=("Segoe UI", 11, "bold"), text_color="#37474F", justify="center")
+        footer_lbl = ctk.CTkLabel(main_frame, text="@2026\nCoba-coba. | Semoga bermanfaat", font=("Segoe UI", 11, "bold"), text_color="#37474F", justify="center")
         footer_lbl.pack(pady=(15, 10))
         
         btn_action_frame = ctk.CTkFrame(main_frame, fg_color="transparent")
